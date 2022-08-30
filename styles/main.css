@@ -11,6 +11,7 @@ body {
   font-family: var(--ff-primary);
   font-weight: bold;
   font-size: 100%;
+  background-color: rgb(252, 243, 243);
 }
 
 a {
@@ -143,9 +144,7 @@ a:hover {
 
 /* DISPLAY FLEX ROW OVER 770PX SCREENS */
 @media (min-width: 850px) {
-  body {
-    background-color: rgb(252, 243, 243);
-  }
+
   .home-container {
     flex-direction: row;
     justify-content: start;
